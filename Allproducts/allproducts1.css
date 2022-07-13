@@ -1,4 +1,4 @@
-
+ul { padding:0 }
 h{
     padding-top: 2px;
     font-size: 20 px;
@@ -86,12 +86,17 @@ grid-column-gap:20px;
 grid-row-gap:40px;
 padding-top: 200px;
 }
-a{
+button a{
     color:rgb(157, 26, 26);
 
 }
-a:hover{
+button a:hover{
     color:green;
 
 
+}
+
+.descrpition a{
+    text-decoration :none !important;
+    color: white !important;
 }

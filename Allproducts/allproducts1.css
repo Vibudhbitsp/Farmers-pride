@@ -1,0 +1,70 @@
+h{
+    font-size: 30 px;
+    
+}
+.product-list{
+    background-color: #e5eae9;
+    padding: 3em;
+
+
+
+
+}
+.product-list .card{
+    background-color:rgb(240, 236, 236);
+    border-radius: 10px;
+    padding:1em;
+    box-shadow:0px 10px 5px #245063;
+    text-align:center;
+    font-family:'Roboto';
+    
+
+}
+.card .title {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.card img{
+    max-width :400px;
+    max-height:200px;
+
+}
+.card .text{
+    text-align: left;
+    font-size: 20px;
+    font-weight: medium;
+    margin-left: 2em;
+    font-family:'Roboto';
+    
+
+
+}
+.button{
+background-color: #f9ca24;
+border:none;
+padding:1em;
+border-radius:5px;
+font-weight:bold;
+width:100%;
+
+}
+.button:hover{
+    box-shadow: 0px 5px 5px #b2bec3;
+    color: #64ecaf;}
+
+.container {
+display:grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-column-gap:20px;
+grid-row-gap:40px;
+}
+a{
+    color:rgb(157, 26, 26);
+
+}
+a:hover{
+    color:green;
+
+
+}

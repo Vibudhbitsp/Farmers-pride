@@ -1,14 +1,38 @@
+
 h{
-    font-size: 30 px;
+    padding-top: 2px;
+    font-size: 20 px;
     
 }
 .product-list{
+    position: relative;
     background-color: #e5eae9;
     padding: 3em;
+}
 
-
-
-
+.allproducts{
+    max-width: 1600px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.allproducts h1 {
+    text-align: center;
+    position: absolute;
+    font-size: 120px;
+    margin-top: 25px;
+    right: 0;
+    left: 0;
+    background-color: rgb(51, 118, 95);
+    color: rgb(236, 236, 30);
+    
+    
 }
 .product-list .card{
     background-color:rgb(240, 236, 236);
@@ -21,9 +45,11 @@ h{
 
 }
 .card .title {
-    font-size: 30px;
+    font-size: 23px;
     font-weight: bold;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(23, 92, 23);
 }
 .card img{
     max-width :400px;
@@ -35,8 +61,8 @@ h{
     font-size: 20px;
     font-weight: medium;
     margin-left: 2em;
-    font-family:'Roboto';
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
 
 
 }
@@ -58,6 +84,7 @@ display:grid;
 grid-template-columns: 1fr 1fr 1fr ;
 grid-column-gap:20px;
 grid-row-gap:40px;
+padding-top: 200px;
 }
 a{
     color:rgb(157, 26, 26);
